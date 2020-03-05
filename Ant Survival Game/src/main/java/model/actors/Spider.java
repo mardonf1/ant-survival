@@ -1,13 +1,7 @@
 package model.actors;
 
-public class Ant implements Actor, Runnable {
+public class Spider implements Actor, Runnable {
 
-	private double health;
-	
-	public Ant() {
-		health = 0;
-	}
-	
 	@Override
 	public void run() {
 		
@@ -15,7 +9,7 @@ public class Ant implements Actor, Runnable {
 
 	@Override
 	public double getHealth() {
-		return health;
+		return 0;
 	}
 
 	@Override
